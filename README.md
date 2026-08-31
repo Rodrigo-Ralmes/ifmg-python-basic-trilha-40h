@@ -1,7 +1,10 @@
 # 🐍 Python Básico — Trilha de Formação | +IFMG
 
 <p align="center">
-  <img src="assets/logos/ifmg-logo.png" alt="Instituto Federal de Minas Gerais - IFMG" width="180">
+  <img
+    src="assets/logos/ifmg-logo-horizontal.png"
+    alt="Instituto Federal de Minas Gerais - IFMG"
+    width="320">
 </p>
 
 <p align="center">
