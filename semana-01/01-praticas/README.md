@@ -54,3 +54,23 @@ Teste
 Observação do resultado
        ↓
 Consolidação
+```
+
+---
+
+## 📊 Práticas concluídas
+
+| Nº | Prática | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Saída de dados com `print()` | `pratica01_print.py` | ✅ |
+| 02 | Tipos de dados | `pratica02_tipos_dados.py` | ✅ |
+| 03 | Variáveis | `pratica03_variaveis.py` | ✅ |
+| 04 | Entrada e saída de dados | `pratica04_input_output.py` | ✅ |
+| 05 | Operadores aritméticos | `pratica05_operadores_aritmeticos.py` | ✅ |
+| 06 | Operadores relacionais | `pratica06_operadores_relacionais.py` | ✅ |
+| 07 | Operadores lógicos | `pratica07_operadores_logicos.py` | ✅ |
+| 08 | Funções básicas | `pratica08_funcoes.py` | ✅ |
+| 09 | Strings | `pratica09_strings.py` | ✅ |
+| 10 | Biblioteca `math` | `pratica10_math.py` | ✅ |
+
+> Todas as práticas previstas para este bloco da Semana 01 foram concluídas e versionadas no repositório.
