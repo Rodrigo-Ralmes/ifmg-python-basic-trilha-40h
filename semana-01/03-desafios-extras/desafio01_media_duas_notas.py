@@ -1,9 +1,5 @@
 # -*- coding: utf-8 -*-
-"""
-Created on Thu Sep  3 11:03:33 2026
 
-@author: Rodrigo
-"""
 # =============================================================================
 # Curso: Python Básico - +IFMG
 # Trilha: Python e Big Data - 160h
@@ -12,7 +8,7 @@ Created on Thu Sep  3 11:03:33 2026
 # Desafio: 01 - Média de duas notas
 # Arquivo: desafio01_media_duas_notas.py
 # Autor: Rodrigo de Almeida Silveira
-# Data: 03/09/2026 11:03:33
+# Data: 03/09/2026
 #
 # Objetivo:
 # Solicitar duas notas, calcular a média aritmética e apresentar
