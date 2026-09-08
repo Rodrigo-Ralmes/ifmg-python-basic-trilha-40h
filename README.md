@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/logos/ifmg-logo.png" alt="Logo do IFMG" width="320">
+<img src="assets/logos/ifmg-logo-horizontal.png" alt="Logo do IFMG" width="320">
 
 # 🐍 Python Básico — +IFMG
 
