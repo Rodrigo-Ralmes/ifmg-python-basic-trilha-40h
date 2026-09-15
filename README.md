@@ -173,7 +173,7 @@ Problemas complementares desenvolvidos para ampliar e consolidar os conhecimento
 | Semana | Conteúdo | Status |
 |---:|---|:---:|
 | 01 | Fundamentos de Python | ✅ Concluída |
-| 02 | Continuidade do curso | ⏳ Planejada |
+| 02 | Controle de Fluxo | ✅ Concluída |
 | 03 | Continuidade do curso | ⏳ Planejada |
 | 04 | Continuidade do curso | ⏳ Planejada |
 
@@ -181,7 +181,7 @@ Problemas complementares desenvolvidos para ampliar e consolidar os conhecimento
 
 ```text
 Semana 01  ████████████████████ 100%
-Semana 02  ░░░░░░░░░░░░░░░░░░░░   0%
+Semana 02  ████████████████████ 100%
 Semana 03  ░░░░░░░░░░░░░░░░░░░░   0%
 Semana 04  ░░░░░░░░░░░░░░░░░░░░   0%
 ```
@@ -269,6 +269,104 @@ Os desafios extras foram desenvolvidos para ampliar a aplicação dos conhecimen
 | 09 | Circunferência | [`desafio09_circunferencia.py`](semana-01/03-desafios-extras/desafio09_circunferencia.py) | ✅ |
 | 10 | Hipotenusa | [`desafio10_hipotenusa.py`](semana-01/03-desafios-extras/desafio10_hipotenusa.py) | ✅ |
 | 11 | Formatação de dados do usuário | [`desafio11_formatacao_dados_usuario.py`](semana-01/03-desafios-extras/desafio11_formatacao_dados_usuario.py) | ✅ |
+
+---
+
+# ✅ Semana 02 — Controle de Fluxo
+
+A Semana 02 foi concluída com práticas, exercícios oficiais e desafios extras.
+
+Durante essa etapa, foram estudadas e aplicadas as principais estruturas de **decisão e repetição da linguagem Python**, permitindo controlar diferentes caminhos de execução, criar repetições, utilizar contadores e acumuladores e resolver problemas progressivamente mais complexos.
+
+[📘 Acessar a documentação completa da Semana 02](semana-02/README.md)
+
+---
+
+## 📊 Resumo da Semana 02
+
+| Categoria | Planejado | Concluído | Percentual | Status |
+|---|---:|---:|---:|:---:|
+| Práticas principais | 19 | 19 | 100% | ✅ |
+| Práticas complementares | 3 | 3 | 100% | ✅ |
+| Exercícios oficiais | 6 | 6 | 100% | ✅ |
+| Desafios extras | 11 | 11 | 100% | ✅ |
+| **Total de códigos** | **39** | **39** | **100%** | **✅** |
+
+```text
+████████████████████ 100%
+```
+
+---
+
+## 🧪 Práticas de controle de fluxo
+
+As práticas foram desenvolvidas para estudar, testar e consolidar estruturas de decisão e repetição em Python.
+
+[📘 Acessar a documentação completa das práticas](semana-02/01-praticas/README.md)
+
+| Nº | Prática | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Estrutura `if` simples | [`pratica01_if_simples.py`](semana-02/01-praticas/pratica01_if_simples.py) | ✅ |
+| 02 | Estrutura `if/else` | [`pratica02_if_else.py`](semana-02/01-praticas/pratica02_if_else.py) | ✅ |
+| 03 | Estrutura `if/elif/else` | [`pratica03_if_elif_else.py`](semana-02/01-praticas/pratica03_if_elif_else.py) | ✅ |
+| 04 | Condições compostas | [`pratica04_condicoes_compostas.py`](semana-02/01-praticas/pratica04_condicoes_compostas.py) | ✅ |
+| 05 | Estrutura `if` aninhada | [`pratica05_if_aninhado.py`](semana-02/01-praticas/pratica05_if_aninhado.py) | ✅ |
+| 06 | Problema completo com decisão | [`pratica06_decisao_problema_completo.py`](semana-02/01-praticas/pratica06_decisao_problema_completo.py) | ✅ |
+| 06A | Ano bissexto | [`pratica06a_ano_bissexto.py`](semana-02/01-praticas/pratica06a_ano_bissexto.py) | ✅ |
+| 06B | Classificação de triângulos | [`pratica06b_classificacao_triangulos.py`](semana-02/01-praticas/pratica06b_classificacao_triangulos.py) | ✅ |
+| 06C | Equação do segundo grau | [`pratica06c_equacao_segundo_grau.py`](semana-02/01-praticas/pratica06c_equacao_segundo_grau.py) | ✅ |
+| 07 | Laço `while` | [`pratica07_while.py`](semana-02/01-praticas/pratica07_while.py) | ✅ |
+| 08 | `while` com acumulador | [`pratica08_while_acumulador.py`](semana-02/01-praticas/pratica08_while_acumulador.py) | ✅ |
+| 09 | Laço `for` | [`pratica09_for.py`](semana-02/01-praticas/pratica09_for.py) | ✅ |
+| 10 | Função `range()` | [`pratica10_range.py`](semana-02/01-praticas/pratica10_range.py) | ✅ |
+| 11 | `break` e `continue` | [`pratica11_break_continue.py`](semana-02/01-praticas/pratica11_break_continue.py) | ✅ |
+| 12 | Decisão e repetição | [`pratica12_decisao_repeticao.py`](semana-02/01-praticas/pratica12_decisao_repeticao.py) | ✅ |
+| 13 | Números pares com `while` | [`pratica13_numeros_pares_while.py`](semana-02/01-praticas/pratica13_numeros_pares_while.py) | ✅ |
+| 14 | Soma de 10 números com `for` | [`pratica14_soma_10_numeros_for.py`](semana-02/01-praticas/pratica14_soma_10_numeros_for.py) | ✅ |
+| 15 | Soma indefinida | [`pratica15_soma_indefinida.py`](semana-02/01-praticas/pratica15_soma_indefinida.py) | ✅ |
+| 16 | Soma indefinida sem negativos | [`pratica16_soma_indefinida_sem_negativos.py`](semana-02/01-praticas/pratica16_soma_indefinida_sem_negativos.py) | ✅ |
+| 17 | MDC — Algoritmo de Euclides | [`pratica17_mdc_euclides.py`](semana-02/01-praticas/pratica17_mdc_euclides.py) | ✅ |
+| 18 | Combinações de elementos | [`pratica18_combinacoes_elementos.py`](semana-02/01-praticas/pratica18_combinacoes_elementos.py) | ✅ |
+| 19 | Subconjuntos de dois elementos | [`pratica19_subconjuntos_dois_elementos.py`](semana-02/01-praticas/pratica19_subconjuntos_dois_elementos.py) | ✅ |
+
+---
+
+## 🧩 Exercícios oficiais — Semana 02
+
+Os exercícios oficiais permitiram aplicar estruturas de decisão e repetição em problemas estruturados apresentados no material didático.
+
+[📘 Acessar a documentação completa dos exercícios](semana-02/02-exercicios/README.md)
+
+| Nº | Exercício | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Maior de três números | [`ex01_maior_de_tres.py`](semana-02/02-exercicios/ex01_maior_de_tres.py) | ✅ |
+| 02 | Par ou ímpar sem módulo | [`ex02_par_impar_sem_modulo.py`](semana-02/02-exercicios/ex02_par_impar_sem_modulo.py) | ✅ |
+| 03 | Imposto de renda | [`ex03_imposto_renda.py`](semana-02/02-exercicios/ex03_imposto_renda.py) | ✅ |
+| 04 | Maior e menor em sequência | [`ex04_maior_menor_sequencia.py`](semana-02/02-exercicios/ex04_maior_menor_sequencia.py) | ✅ |
+| 05 | Fatorial | [`ex05_fatorial.py`](semana-02/02-exercicios/ex05_fatorial.py) | ✅ |
+| 06 | Calculadora | [`ex06_calculadora.py`](semana-02/02-exercicios/ex06_calculadora.py) | ✅ |
+
+---
+
+## 🚀 Desafios extras — Semana 02
+
+Os desafios extras foram desenvolvidos para ampliar a aplicação dos conhecimentos sobre controle de fluxo.
+
+[📘 Acessar a documentação completa dos desafios](semana-02/03-desafios-extras/README.md)
+
+| Nº | Desafio | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Classificador de número | [`desafio01_classificador_numero.py`](semana-02/03-desafios-extras/desafio01_classificador_numero.py) | ✅ |
+| 02 | Situação do aluno | [`desafio02_situacao_aluno.py`](semana-02/03-desafios-extras/desafio02_situacao_aluno.py) | ✅ |
+| 03 | Maior e menor de cinco números | [`desafio03_maior_menor_cinco_numeros.py`](semana-02/03-desafios-extras/desafio03_maior_menor_cinco_numeros.py) | ✅ |
+| 04 | Tabuada | [`desafio04_tabuada.py`](semana-02/03-desafios-extras/desafio04_tabuada.py) | ✅ |
+| 05 | Soma dos pares de um intervalo | [`desafio05_soma_pares_intervalo.py`](semana-02/03-desafios-extras/desafio05_soma_pares_intervalo.py) | ✅ |
+| 06 | Contador de sinais | [`desafio06_contador_sinais.py`](semana-02/03-desafios-extras/desafio06_contador_sinais.py) | ✅ |
+| 07 | Senha com três tentativas | [`desafio07_senha_tres_tentativas.py`](semana-02/03-desafios-extras/desafio07_senha_tres_tentativas.py) | ✅ |
+| 08 | Calculadora com menu | [`desafio08_calculadora_menu.py`](semana-02/03-desafios-extras/desafio08_calculadora_menu.py) | ✅ |
+| 09 | Sequência de Fibonacci | [`desafio09_fibonacci.py`](semana-02/03-desafios-extras/desafio09_fibonacci.py) | ✅ |
+| 10 | Número primo | [`desafio10_numero_primo.py`](semana-02/03-desafios-extras/desafio10_numero_primo.py) | ✅ |
+| 11 | Estatísticas da turma | [`desafio11_estatisticas_turma.py`](semana-02/03-desafios-extras/desafio11_estatisticas_turma.py) | ✅ |
 
 ---
 
@@ -622,6 +720,57 @@ ifmg-python-basic-trilha-40h/
 │       ├── desafio10_hipotenusa.py
 │       └── desafio11_formatacao_dados_usuario.py
 │
+├── semana-02/
+│   ├── README.md
+│   │
+│   ├── 01-praticas/
+│   │   ├── README.md
+│   │   ├── pratica01_if_simples.py
+│   │   ├── pratica02_if_else.py
+│   │   ├── pratica03_if_elif_else.py
+│   │   ├── pratica04_condicoes_compostas.py
+│   │   ├── pratica05_if_aninhado.py
+│   │   ├── pratica06_decisao_problema_completo.py
+│   │   ├── pratica06a_ano_bissexto.py
+│   │   ├── pratica06b_classificacao_triangulos.py
+│   │   ├── pratica06c_equacao_segundo_grau.py
+│   │   ├── pratica07_while.py
+│   │   ├── pratica08_while_acumulador.py
+│   │   ├── pratica09_for.py
+│   │   ├── pratica10_range.py
+│   │   ├── pratica11_break_continue.py
+│   │   ├── pratica12_decisao_repeticao.py
+│   │   ├── pratica13_numeros_pares_while.py
+│   │   ├── pratica14_soma_10_numeros_for.py
+│   │   ├── pratica15_soma_indefinida.py
+│   │   ├── pratica16_soma_indefinida_sem_negativos.py
+│   │   ├── pratica17_mdc_euclides.py
+│   │   ├── pratica18_combinacoes_elementos.py
+│   │   └── pratica19_subconjuntos_dois_elementos.py
+│   │
+│   ├── 02-exercicios/
+│   │   ├── README.md
+│   │   ├── ex01_maior_de_tres.py
+│   │   ├── ex02_par_impar_sem_modulo.py
+│   │   ├── ex03_imposto_renda.py
+│   │   ├── ex04_maior_menor_sequencia.py
+│   │   ├── ex05_fatorial.py
+│   │   └── ex06_calculadora.py
+│   │
+│   └── 03-desafios-extras/
+│       ├── README.md
+│       ├── desafio01_classificador_numero.py
+│       ├── desafio02_situacao_aluno.py
+│       ├── desafio03_maior_menor_cinco_numeros.py
+│       ├── desafio04_tabuada.py
+│       ├── desafio05_soma_pares_intervalo.py
+│       ├── desafio06_contador_sinais.py
+│       ├── desafio07_senha_tres_tentativas.py
+│       ├── desafio08_calculadora_menu.py
+│       ├── desafio09_fibonacci.py
+│       ├── desafio10_numero_primo.py
+│       └── desafio11_estatisticas_turma.py
+│
 ├── .gitignore
 ├── LICENSE
 └── README.md
@@ -803,14 +952,32 @@ Foram concluídos:
 - versionamento individual das atividades;
 - publicação completa no GitHub.
 
+A conclusão da **Semana 02 — Controle de Fluxo** representa o segundo grande marco do repositório.
+
+Também foram concluídos:
+
+- **19 práticas principais**;
+- **3 práticas complementares**;
+- **22 arquivos de práticas**;
+- **6 exercícios oficiais**;
+- **11 desafios extras**;
+- **39 arquivos Python**;
+- **4 READMEs estruturados dentro da Semana 02**;
+- versionamento individual das atividades;
+- publicação completa no GitHub.
+
 ---
 
 ## 🔗 Navegação rápida
 
 - [🐍 Semana 01 — Fundamentos de Python](semana-01/README.md)
 - [🧪 Práticas fundamentais](semana-01/01-praticas/README.md)
-- [🧩 Exercícios oficiais](semana-01/02-exercicios/README.md)
-- [🚀 Desafios extras](semana-01/03-desafios-extras/README.md)
+- [🧩 Exercícios oficiais — Semana 01](semana-01/02-exercicios/README.md)
+- [🚀 Desafios extras — Semana 01](semana-01/03-desafios-extras/README.md)
+- [🔀 Semana 02 — Controle de Fluxo](semana-02/README.md)
+- [🧪 Práticas de controle de fluxo](semana-02/01-praticas/README.md)
+- [🧩 Exercícios oficiais — Semana 02](semana-02/02-exercicios/README.md)
+- [🚀 Desafios extras — Semana 02](semana-02/03-desafios-extras/README.md)
 
 ---
 
@@ -818,7 +985,7 @@ Foram concluídos:
 
 As próximas etapas do repositório incluem:
 
-- iniciar os conteúdos da Semana 02;
+- iniciar os conteúdos da Semana 03;
 - desenvolver novas práticas;
 - resolver os próximos exercícios oficiais;
 - criar novos desafios extras;
