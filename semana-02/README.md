@@ -1,1363 +1,850 @@
-**# 🚀 Desafios Extras — Semana 02**
+# 🔀 Semana 02 — Controle de Fluxo
 
-Esta pasta reúne os desafios extras desenvolvidos durante a **\*\*Semana 02\*\*** do curso **\*\*Python Básico — +IFMG\*\***.
+Esta pasta reúne todo o conteúdo prático desenvolvido durante a **Semana 02** do curso **Python Básico — +IFMG**.
 
-Os desafios complementam as práticas e os exercícios oficiais da semana, permitindo aplicar e ampliar os conhecimentos adquiridos sobre **\*\*estruturas de decisão e estruturas de repetição\*\***.
+A etapa foi organizada em práticas de aprendizagem, exercícios oficiais e desafios extras, permitindo estudar as estruturas de decisão e repetição da linguagem Python e aplicá-las progressivamente na resolução de problemas.
 
-Nesta etapa, os programas passam a possuir um fluxo de execução mais elaborado, permitindo tomar decisões, repetir instruções, controlar critérios de parada, utilizar contadores e acumuladores e resolver problemas progressivamente mais complexos.
+---
 
-**---**
+## 🎯 Objetivo da semana
 
-**## 🎯 Objetivo**
+O objetivo da Semana 02 é compreender e aplicar os mecanismos de controle de fluxo da linguagem Python.
 
-Consolidar os conteúdos estudados durante a Semana 02 por meio do desenvolvimento de programas completos utilizando estruturas de controle de fluxo.
+Durante esta etapa, foram trabalhados conhecimentos essenciais para a construção de algoritmos capazes de tomar decisões e repetir instruções, incluindo:
 
-Os desafios foram elaborados para exercitar:
+- estruturas condicionais;
+- decisão simples;
+- decisão composta;
+- múltiplas alternativas;
+- condições compostas;
+- estruturas aninhadas;
+- operadores relacionais;
+- operadores lógicos;
+- laço `while`;
+- laço `for`;
+- função `range()`;
+- contadores;
+- acumuladores;
+- `break`;
+- `continue`;
+- combinação entre decisões e repetições;
+- resolução de problemas;
+- testes;
+- correção de erros;
+- documentação;
+- versionamento com Git;
+- publicação no GitHub.
 
-\- interpretação de problemas;
+---
 
-\- identificação das entradas;
+## 🧠 Metodologia de aprendizagem
 
-\- definição das variáveis;
+A Semana 02 foi organizada em três níveis progressivos:
 
-\- construção de condições;
+```text
+Práticas de controle de fluxo
+        ↓
+Exercícios oficiais
+        ↓
+Desafios extras
+```
 
-\- utilização de estruturas condicionais;
+### 1. Práticas de controle de fluxo
 
-\- utilização de estruturas de repetição;
+As práticas foram utilizadas para conhecer, experimentar e compreender os principais recursos de decisão e repetição da linguagem Python.
 
-\- comparação de valores;
+### 2. Exercícios oficiais
 
-\- utilização de contadores;
+Os exercícios permitiram aplicar os conceitos estudados na resolução de problemas estruturados apresentados no material didático.
 
-\- utilização de acumuladores;
+### 3. Desafios extras
 
-\- definição de condições de parada;
+Os desafios ampliaram o aprendizado por meio de situações envolvendo classificação, contadores, acumuladores, menus, sequências numéricas, autenticação e análise de valores.
 
-\- controle de iterações;
+O processo completo utilizado foi:
 
-\- tratamento de diferentes possibilidades;
-
-\- execução e teste dos programas;
-
-\- identificação e correção de erros;
-
-\- documentação dos códigos;
-
-\- versionamento individual com Git;
-
-\- publicação dos códigos no GitHub.
-
-**---**
-
-**## 🧠 Metodologia**
-
-Cada desafio foi desenvolvido seguindo um fluxo sequencial e lógico:
-
-\`\`\`text
-
-Problema
-
-    ↓
-
-Análise
-
-    ↓
-
-Definição das entradas
-
-    ↓
-
-Identificação das condições
-
-    ↓
-
-Identificação das repetições
-
-    ↓
-
-Definição das variáveis
-
-    ↓
-
-Implementação em Python
-
-    ↓
-
-Teste no Spyder
-
-    ↓
-
-Análise dos resultados
-
-    ↓
-
-Correção
-
-    ↓
-
-Documentação
-
-    ↓
-
+```text
+Estudo do conteúdo
+        ↓
+Criação de uma prática
+        ↓
+Execução no Spyder
+        ↓
+Resolução de exercício
+        ↓
+Desenvolvimento de desafio
+        ↓
+Teste dos resultados
+        ↓
+Identificação e correção de erros
+        ↓
+Documentação do código
+        ↓
 Versionamento com Git
-
-    ↓
-
+        ↓
 Publicação no GitHub
+```
+
+---
+
+## 📊 Resumo geral
+
+| Categoria | Planejado | Concluído | Percentual | Status |
+|---|---:|---:|---:|:---:|
+| Práticas principais | 19 | 19 | 100% | ✅ |
+| Práticas complementares | 3 | 3 | 100% | ✅ |
+| Exercícios oficiais | 6 | 6 | 100% | ✅ |
+| Desafios extras | 11 | 11 | 100% | ✅ |
+| **Total de códigos** | **39** | **39** | **100%** | **✅** |
+
+```text
+████████████████████ 100%
+```
+
+---
+
+# 🧪 01 — Práticas de controle de fluxo
+
+As práticas foram desenvolvidas para experimentar e compreender os recursos de decisão e repetição da linguagem Python.
+
+Pasta: [`01-praticas`](01-praticas/README.md)
+
+## Práticas concluídas
+
+| Nº | Prática | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Estrutura `if` simples | [`pratica01_if_simples.py`](01-praticas/pratica01_if_simples.py) | ✅ |
+| 02 | Estrutura `if/else` | [`pratica02_if_else.py`](01-praticas/pratica02_if_else.py) | ✅ |
+| 03 | Estrutura `if/elif/else` | [`pratica03_if_elif_else.py`](01-praticas/pratica03_if_elif_else.py) | ✅ |
+| 04 | Condições compostas | [`pratica04_condicoes_compostas.py`](01-praticas/pratica04_condicoes_compostas.py) | ✅ |
+| 05 | Estrutura `if` aninhada | [`pratica05_if_aninhado.py`](01-praticas/pratica05_if_aninhado.py) | ✅ |
+| 06 | Problema completo com decisão | [`pratica06_decisao_problema_completo.py`](01-praticas/pratica06_decisao_problema_completo.py) | ✅ |
+| 06A | Ano bissexto | [`pratica06a_ano_bissexto.py`](01-praticas/pratica06a_ano_bissexto.py) | ✅ |
+| 06B | Classificação de triângulos | [`pratica06b_classificacao_triangulos.py`](01-praticas/pratica06b_classificacao_triangulos.py) | ✅ |
+| 06C | Equação do segundo grau | [`pratica06c_equacao_segundo_grau.py`](01-praticas/pratica06c_equacao_segundo_grau.py) | ✅ |
+| 07 | Laço `while` | [`pratica07_while.py`](01-praticas/pratica07_while.py) | ✅ |
+| 08 | `while` com acumulador | [`pratica08_while_acumulador.py`](01-praticas/pratica08_while_acumulador.py) | ✅ |
+| 09 | Laço `for` | [`pratica09_for.py`](01-praticas/pratica09_for.py) | ✅ |
+| 10 | Função `range()` | [`pratica10_range.py`](01-praticas/pratica10_range.py) | ✅ |
+| 11 | `break` e `continue` | [`pratica11_break_continue.py`](01-praticas/pratica11_break_continue.py) | ✅ |
+| 12 | Decisão e repetição | [`pratica12_decisao_repeticao.py`](01-praticas/pratica12_decisao_repeticao.py) | ✅ |
+| 13 | Números pares com `while` | [`pratica13_numeros_pares_while.py`](01-praticas/pratica13_numeros_pares_while.py) | ✅ |
+| 14 | Soma de 10 números com `for` | [`pratica14_soma_10_numeros_for.py`](01-praticas/pratica14_soma_10_numeros_for.py) | ✅ |
+| 15 | Soma indefinida | [`pratica15_soma_indefinida.py`](01-praticas/pratica15_soma_indefinida.py) | ✅ |
+| 16 | Soma indefinida sem negativos | [`pratica16_soma_indefinida_sem_negativos.py`](01-praticas/pratica16_soma_indefinida_sem_negativos.py) | ✅ |
+| 17 | MDC — Algoritmo de Euclides | [`pratica17_mdc_euclides.py`](01-praticas/pratica17_mdc_euclides.py) | ✅ |
+| 18 | Combinações de elementos | [`pratica18_combinacoes_elementos.py`](01-praticas/pratica18_combinacoes_elementos.py) | ✅ |
+| 19 | Subconjuntos de dois elementos | [`pratica19_subconjuntos_dois_elementos.py`](01-praticas/pratica19_subconjuntos_dois_elementos.py) | ✅ |
+
+## Conteúdos consolidados nas práticas
+
+As práticas permitiram estudar:
+
+- estrutura `if`;
+- estrutura `if/else`;
+- estrutura `if/elif/else`;
+- condições compostas;
+- estruturas condicionais aninhadas;
+- operadores relacionais;
+- operadores lógicos;
+- ano bissexto;
+- classificação de triângulos;
+- equação do segundo grau;
+- laço `while`;
+- contadores;
+- acumuladores;
+- laço `for`;
+- função `range()`;
+- `break`;
+- `continue`;
+- combinação entre decisão e repetição;
+- repetição definida e indefinida;
+- algoritmo de Euclides;
+- laços aninhados;
+- combinações;
+- subconjuntos.
+
+Para consultar a documentação completa, acesse:
+
+[📘 Documentação das práticas](01-praticas/README.md)
+
+---
+
+# 🧩 02 — Exercícios oficiais
+
+Os exercícios oficiais foram desenvolvidos para aplicar os conceitos estudados em problemas estruturados.
+
+Pasta: [`02-exercicios`](02-exercicios/README.md)
+
+## Exercícios concluídos
+
+| Nº | Exercício | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Maior de três números | [`ex01_maior_de_tres.py`](02-exercicios/ex01_maior_de_tres.py) | ✅ |
+| 02 | Par ou ímpar sem módulo | [`ex02_par_impar_sem_modulo.py`](02-exercicios/ex02_par_impar_sem_modulo.py) | ✅ |
+| 03 | Imposto de renda | [`ex03_imposto_renda.py`](02-exercicios/ex03_imposto_renda.py) | ✅ |
+| 04 | Maior e menor em sequência | [`ex04_maior_menor_sequencia.py`](02-exercicios/ex04_maior_menor_sequencia.py) | ✅ |
+| 05 | Fatorial | [`ex05_fatorial.py`](02-exercicios/ex05_fatorial.py) | ✅ |
+| 06 | Calculadora | [`ex06_calculadora.py`](02-exercicios/ex06_calculadora.py) | ✅ |
 
-\`\`\`
+## Exercício 01 — Maior de três números
 
-Internamente, os códigos seguem o mesmo padrão de organização utilizado durante a trilha:
-
-\`\`\`python
-
-\# =============================================================================
-
-\# ENTRADA DE DADOS
-
-\# =============================================================================
-
-
-
-\# =============================================================================
-
-\# PROCESSAMENTO
-
-\# =============================================================================
-
-
-
-\# =============================================================================
-
-\# SAÍDA DE DADOS
-
-\# =============================================================================
-
-\`\`\`
-
-Quando necessário, também podem ser utilizadas seções específicas:
-
-\`\`\`python
-
-\# =============================================================================
-
-\# INICIALIZAÇÃO
-
-\# =============================================================================
-
-\`\`\`
-
-\`\`\`python
-
-\# =============================================================================
-
-\# VALIDAÇÃO
-
-\# =============================================================================
-
-\`\`\`
-
-Essa estrutura facilita a leitura, o teste, a manutenção e a compreensão dos algoritmos.
-
-**---**
-
-**## 📚 Conteúdos praticados**
-
-Durante o desenvolvimento dos desafios da Semana 02, são utilizados os seguintes conceitos:
-
-\- \`input()\`;
-
-\- \`int()\`;
-
-\- \`float()\`;
-
-\- \`str\`;
-
-\- variáveis;
-
-\- operadores aritméticos;
-
-\- operadores relacionais;
-
-\- operadores lógicos;
-
-\- operador de resto \`%\`;
-
-\- \`if\`;
-
-\- \`elif\`;
-
-\- \`else\`;
-
-\- condições simples;
-
-\- condições compostas;
-
-\- estruturas condicionais aninhadas;
-
-\- \`while\`;
-
-\- \`while True\`;
-
-\- \`for\`;
-
-\- \`range()\`;
-
-\- \`break\`;
-
-\- \`continue\`;
-
-\- contadores;
-
-\- acumuladores;
-
-\- comparação de valores;
-
-\- maior e menor valor;
-
-\- média aritmética;
-
-\- divisibilidade;
-
-\- sequências numéricas;
-
-\- f-strings;
-
-\- formatação com \`.2f\`;
-
-\- métodos de strings;
-
-\- \`strip()\`;
-
-\- \`lower()\`.
-
-**---**
-
-**## 📊 Desafios concluídos**
-
-\| Nº | Desafio | Arquivo | Conteúdo principal | Status |
-
-\|---:|---|---|---|:---:|
-
-\| 01 | Classificador de número | [\`desafio01\_classificador\_numero.py\`]\(desafio01\_classificador\_numero.py) | \`if/elif/else\` e paridade | ⬜ |
-
-\| 02 | Situação do aluno | [\`desafio02\_situacao\_aluno.py\`]\(desafio02\_situacao\_aluno.py) | Decisão múltipla | ⬜ |
-
-\| 03 | Maior e menor de cinco números | [\`desafio03\_maior\_menor\_cinco\_numeros.py\`]\(desafio03\_maior\_menor\_cinco\_numeros.py) | \`for\` e comparação | ⬜ |
-
-\| 04 | Tabuada | [\`desafio04\_tabuada.py\`]\(desafio04\_tabuada.py) | \`for\` e \`range()\` | ⬜ |
-
-\| 05 | Soma dos pares de um intervalo | [\`desafio05\_soma\_pares\_intervalo.py\`]\(desafio05\_soma\_pares\_intervalo.py) | Acumulador e \`%\` | ⬜ |
-
-\| 06 | Contador de sinais | [\`desafio06\_contador\_sinais.py\`]\(desafio06\_contador\_sinais.py) | Contadores | ⬜ |
-
-\| 07 | Senha com três tentativas | [\`desafio07\_senha\_tres\_tentativas.py\`]\(desafio07\_senha\_tres\_tentativas.py) | \`while\` e \`break\` | ⬜ |
-
-\| 08 | Calculadora com menu | [\`desafio08\_calculadora\_menu.py\`]\(desafio08\_calculadora\_menu.py) | \`while\`, \`break\`, \`continue\` | ⬜ |
-
-\| 09 | Fibonacci | [\`desafio09\_fibonacci.py\`]\(desafio09\_fibonacci.py) | Sequências e repetição | ⬜ |
-
-\| 10 | Número primo | [\`desafio10\_numero\_primo.py\`]\(desafio10\_numero\_primo.py) | Divisibilidade e \`break\` | ⬜ |
-
-\| 11 | Estatísticas da turma | [\`desafio11\_estatisticas\_turma.py\`]\(desafio11\_estatisticas\_turma.py) | Contadores e acumuladores | ⬜ |
-
-**---**
-
-**# 🔎 Descrição dos desafios**
-
-**## 01 — Classificador de número**
-
-O programa solicita um número inteiro e identifica se o valor é:
-
-\- positivo;
-
-\- negativo;
-
-\- zero.
-
-Quando o valor for diferente de zero, o programa também identifica se ele é:
-
-\- par;
-
-\- ímpar.
-
-A identificação de números pares utiliza:
-
-\`\`\`python
-
-numero % 2 == 0
-
-\`\`\`
+O programa solicita três números e identifica o maior valor informado.
 
 Principais conceitos:
 
-\- entrada de dados;
+- entrada de dados;
+- comparação;
+- operadores relacionais;
+- `if`;
+- `elif`;
+- `else`.
 
-\- conversão para \`int\`;
+---
 
-\- estruturas condicionais;
+## Exercício 02 — Par ou ímpar sem módulo
 
-\- \`if\`;
-
-\- \`elif\`;
-
-\- \`else\`;
-
-\- condições aninhadas;
-
-\- operador \`%\`.
-
-Arquivo:
-
-[\`desafio01\_classificador\_numero.py\`]\(desafio01\_classificador\_numero.py)
-
-**---**
-
-**## 02 — Situação do aluno**
-
-O programa solicita duas notas e calcula a média do aluno.
-
-\`\`\`text
-
-Média = (nota 1 + nota 2) / 2
-
-\`\`\`
-
-Depois, uma estrutura \`if/elif/else\` determina sua situação.
-
-Exemplo de critérios:
-
-\`\`\`text
-
-Média >= 60 → Aprovado
-
-Média >= 40 → Recuperação
-
-Média < 40  → Reprovado
-
-\`\`\`
+O programa verifica se um número é par ou ímpar sem utilizar diretamente o operador `%`.
 
 Principais conceitos:
 
-\- entrada de dados;
+- `input()`;
+- `int()`;
+- divisão;
+- comparação;
+- estrutura condicional.
 
-\- conversão para \`float\`;
+---
 
-\- média aritmética;
+## Exercício 03 — Imposto de renda
 
-\- \`if\`;
+O programa solicita um salário e determina a faixa correspondente para cálculo do imposto.
 
-\- \`elif\`;
-
-\- \`else\`;
-
-\- formatação decimal.
-
-Arquivo:
-
-[\`desafio02\_situacao\_aluno.py\`]\(desafio02\_situacao\_aluno.py)
-
-**---**
-
-**## 03 — Maior e menor de cinco números**
-
-O programa solicita cinco números.
-
-Durante a repetição, duas variáveis armazenam continuamente:
-
-\`\`\`text
-
-maior valor
-
-menor valor
-
-\`\`\`
-
-Sempre que um novo número é informado, o programa realiza comparações e atualiza essas variáveis quando necessário.
+```text
+Até R$ 1.903,98            → Isento
+R$ 1.903,99 a R$ 2.826,65 → 7,5%
+R$ 2.826,66 a R$ 3.751,05 → 15%
+R$ 3.751,06 a R$ 4.664,68 → 22,5%
+Acima de R$ 4.664,68       → 27,5%
+```
 
 Principais conceitos:
 
-\- \`for\`;
+- `float()`;
+- `if/elif/else`;
+- faixas de valores;
+- porcentagem;
+- formatação monetária.
 
-\- \`range()\`;
+---
 
-\- comparação;
+## Exercício 04 — Maior e menor em sequência
 
-\- operadores relacionais;
-
-\- atualização de variáveis;
-
-\- maior valor;
-
-\- menor valor.
-
-Arquivo:
-
-[\`desafio03\_maior\_menor\_cinco\_numeros.py\`]\(desafio03\_maior\_menor\_cinco\_numeros.py)
-
-**---**
-
-**## 04 — Tabuada**
-
-O programa solicita um número inteiro e apresenta sua tabuada de multiplicação de 1 até 10.
-
-Exemplo:
-
-\`\`\`text
-
-7 x 1 = 7
-
-7 x 2 = 14
-
-7 x 3 = 21
-
-...
-
-7 x 10 = 70
-
-\`\`\`
-
-A repetição utiliza:
-
-\`\`\`python
-
-for multiplicador in range(1, 11):
-
-\`\`\`
+O programa recebe uma quantidade indefinida de números e identifica o maior e o menor valor informado.
 
 Principais conceitos:
 
-\- entrada de dados;
+- `while`;
+- condição de continuidade;
+- comparação;
+- maior valor;
+- menor valor;
+- métodos de strings.
 
-\- \`for\`;
+---
 
-\- \`range()\`;
+## Exercício 05 — Fatorial
 
-\- multiplicação;
+O programa calcula o fatorial de um número inteiro.
 
-\- repetição definida;
-
-\- f-string.
-
-Arquivo:
-
-[\`desafio04\_tabuada.py\`]\(desafio04\_tabuada.py)
-
-**---**
-
-**## 05 — Soma dos pares de um intervalo**
-
-O programa solicita o início e o fim de um intervalo numérico.
-
-Em seguida, percorre todos os valores e identifica quais números são pares:
-
-\`\`\`python
-
-numero % 2 == 0
-
-\`\`\`
-
-Os números pares são adicionados a um acumulador:
-
-\`\`\`python
-
-soma += numero
-
-\`\`\`
+```text
+5! = 5 × 4 × 3 × 2 × 1 = 120
+```
 
 Principais conceitos:
 
-\- \`for\`;
+- `for`;
+- `range()`;
+- acumulador;
+- multiplicação sucessiva.
 
-\- \`range()\`;
+---
 
-\- estrutura condicional;
+## Exercício 06 — Calculadora
 
-\- operador \`%\`;
+O programa implementa uma calculadora que executa operações repetidamente até que o usuário escolha sair.
 
-\- acumulador;
+Operações:
 
-\- intervalos numéricos.
-
-Arquivo:
-
-[\`desafio05\_soma\_pares\_intervalo.py\`]\(desafio05\_soma\_pares\_intervalo.py)
-
-**---**
-
-**## 06 — Contador de sinais**
-
-O programa solicita dez valores e classifica cada um como:
-
-\- positivo;
-
-\- negativo;
-
-\- zero.
-
-Para cada categoria é utilizado um contador específico:
-
-\`\`\`python
-
-positivos += 1
-
-negativos += 1
-
-zeros += 1
-
-\`\`\`
+```text
++
+-
+*
+/
+```
 
 Principais conceitos:
 
-\- contadores;
+- `while`;
+- `break`;
+- `if/elif/else`;
+- operadores aritméticos;
+- repetição.
+
+Para consultar a documentação completa, acesse:
 
-\- \`for\`;
+[📘 Documentação dos exercícios oficiais](02-exercicios/README.md)
+
+---
 
-\- \`range()\`;
+# 🚀 03 — Desafios extras
+
+Os desafios extras foram desenvolvidos para ampliar e consolidar os conhecimentos adquiridos durante a semana.
 
-\- \`if\`;
+Pasta: [`03-desafios-extras`](03-desafios-extras/README.md)
 
-\- \`elif\`;
+## Desafios concluídos
 
-\- \`else\`;
+| Nº | Desafio | Arquivo | Status |
+|---:|---|---|:---:|
+| 01 | Classificador de número | [`desafio01_classificador_numero.py`](03-desafios-extras/desafio01_classificador_numero.py) | ✅ |
+| 02 | Situação do aluno | [`desafio02_situacao_aluno.py`](03-desafios-extras/desafio02_situacao_aluno.py) | ✅ |
+| 03 | Maior e menor de cinco números | [`desafio03_maior_menor_cinco_numeros.py`](03-desafios-extras/desafio03_maior_menor_cinco_numeros.py) | ✅ |
+| 04 | Tabuada | [`desafio04_tabuada.py`](03-desafios-extras/desafio04_tabuada.py) | ✅ |
+| 05 | Soma dos pares de um intervalo | [`desafio05_soma_pares_intervalo.py`](03-desafios-extras/desafio05_soma_pares_intervalo.py) | ✅ |
+| 06 | Contador de sinais | [`desafio06_contador_sinais.py`](03-desafios-extras/desafio06_contador_sinais.py) | ✅ |
+| 07 | Senha com três tentativas | [`desafio07_senha_tres_tentativas.py`](03-desafios-extras/desafio07_senha_tres_tentativas.py) | ✅ |
+| 08 | Calculadora com menu | [`desafio08_calculadora_menu.py`](03-desafios-extras/desafio08_calculadora_menu.py) | ✅ |
+| 09 | Sequência de Fibonacci | [`desafio09_fibonacci.py`](03-desafios-extras/desafio09_fibonacci.py) | ✅ |
+| 10 | Número primo | [`desafio10_numero_primo.py`](03-desafios-extras/desafio10_numero_primo.py) | ✅ |
+| 11 | Estatísticas da turma | [`desafio11_estatisticas_turma.py`](03-desafios-extras/desafio11_estatisticas_turma.py) | ✅ |
 
-\- classificação de dados.
+## Conteúdos consolidados nos desafios
 
-Arquivo:
+Os desafios permitiram aplicar:
 
-[\`desafio06\_contador\_sinais.py\`]\(desafio06\_contador\_sinais.py)
+- classificação de números;
+- positivo, negativo e zero;
+- paridade;
+- média aritmética;
+- decisão múltipla;
+- maior e menor valor;
+- tabuada;
+- soma dos pares em um intervalo;
+- contadores;
+- controle de tentativas;
+- `while`;
+- `break`;
+- `continue`;
+- menu interativo;
+- sequência de Fibonacci;
+- divisibilidade;
+- número primo;
+- estatísticas de turma;
+- acumuladores;
+- controle de fluxo.
 
-**---**
+Para consultar a documentação completa, acesse:
 
-**## 07 — Senha com três tentativas**
+[📘 Documentação dos desafios extras](03-desafios-extras/README.md)
 
-O programa simula um processo simples de autenticação.
+---
 
-O usuário possui no máximo três tentativas para informar a senha correta.
+## 🔀 Estruturas de decisão estudadas
 
-O controle utiliza:
+### Estrutura `if`
 
-\`\`\`python
+```python
+if idade >= 18:
+    print("Maior de idade")
+```
 
-while tentativas < 3:
+### Estrutura `if/else`
 
-\`\`\`
+```python
+if numero >= 0:
+    print("Não negativo")
+else:
+    print("Negativo")
+```
 
-Quando a senha correta é informada:
+### Estrutura `if/elif/else`
 
-\`\`\`python
+```python
+if media >= 60:
+    print("Aprovado")
+elif media >= 40:
+    print("Recuperação")
+else:
+    print("Reprovado")
+```
 
-break
+### Condições compostas
 
-\`\`\`
+```python
+if idade >= 18 and possui_cnh:
+    print("Condição atendida")
+```
 
-encerra imediatamente o laço.
+---
 
-Principais conceitos:
+## 🔁 Estruturas de repetição estudadas
 
-\- strings;
+### `while`
 
-\- \`while\`;
+```python
+contador = 1
 
-\- contador;
+while contador <= 5:
+    print(contador)
+    contador += 1
+```
 
-\- condição de parada;
+### `for`
 
-\- \`break\`;
+```python
+for numero in range(1, 6):
+    print(numero)
+```
 
-\- comparação de valores;
+### `range()`
 
-\- controle de tentativas.
-
-Arquivo:
-
-[\`desafio07\_senha\_tres\_tentativas.py\`]\(desafio07\_senha\_tres\_tentativas.py)
-
-**---**
-
-**## 08 — Calculadora com menu**
-
-O programa apresenta continuamente um menu contendo operações matemáticas.
-
-Exemplo:
-
-\`\`\`text
-
-\+ Adição
-
-\- Subtração
-
-\* Multiplicação
-
-/ Divisão
-
-S Sair
-
-\`\`\`
-
-O menu permanece ativo utilizando:
-
-\`\`\`python
-
-while True:
-
-\`\`\`
-
-O comando:
-
-\`\`\`python
-
-break
-
-\`\`\`
-
-encerra o programa.
-
-Já:
-
-\`\`\`python
-
-continue
-
-\`\`\`
-
-permite ignorar a execução restante de uma iteração e retornar ao menu.
-
-Principais conceitos:
-
-\- menu;
-
-\- \`while True\`;
-
-\- \`if/elif/else\`;
-
-\- \`break\`;
-
-\- \`continue\`;
-
-\- operadores aritméticos;
-
-\- validação de operação.
-
-Arquivo:
-
-[\`desafio08\_calculadora\_menu.py\`]\(desafio08\_calculadora\_menu.py)
-
-**---**
-
-**## 09 — Sequência de Fibonacci**
-
-O programa solicita a quantidade de termos desejada e gera a sequência de Fibonacci.
-
-Exemplo:
-
-\`\`\`text
-
-0 1 1 2 3 5 8 13 21 34
-
-\`\`\`
-
-Cada novo termo é calculado pela soma dos dois anteriores:
-
-\`\`\`python
-
-proximo = primeiro + segundo
-
-\`\`\`
-
-Principais conceitos:
-
-\- variáveis auxiliares;
-
-\- repetição;
-
-\- \`for\`;
-
-\- \`range()\`;
-
-\- atualização de valores;
-
-\- sequência numérica.
-
-Arquivo:
-
-[\`desafio09\_fibonacci.py\`]\(desafio09\_fibonacci.py)
-
-**---**
-
-**## 10 — Número primo**
-
-O programa solicita um número inteiro e verifica se ele é primo.
-
-Um número primo possui exatamente dois divisores positivos:
-
-\`\`\`text
-
-1
-
-o próprio número
-
-\`\`\`
-
-Durante a verificação, o operador:
-
-\`\`\`python
-
-%
-
-\`\`\`
-
-é utilizado para testar a divisibilidade.
-
-Quando um divisor é encontrado, a busca pode ser interrompida utilizando:
-
-\`\`\`python
-
-break
-
-\`\`\`
-
-Principais conceitos:
-
-\- divisibilidade;
-
-\- operador \`%\`;
-
-\- \`for\`;
-
-\- \`range()\`;
-
-\- \`if\`;
-
-\- \`break\`;
-
-\- variável booleana.
-
-Arquivo:
-
-[\`desafio10\_numero\_primo.py\`]\(desafio10\_numero\_primo.py)
-
-**---**
-
-**## 11 — Estatísticas da turma**
-
-O programa solicita a quantidade de alunos e registra suas notas.
-
-Durante o processamento, calcula:
-
-\- quantidade de alunos;
-
-\- soma das notas;
-
-\- média geral;
-
-\- maior nota;
-
-\- menor nota;
-
-\- quantidade de aprovados;
-
-\- quantidade de reprovados.
-
-Exemplo do acumulador:
-
-\`\`\`python
-
-soma\_notas += nota
-
-\`\`\`
-
-Exemplo de contador:
-
-\`\`\`python
-
-aprovados += 1
-
-\`\`\`
-
-Principais conceitos:
-
-\- \`for\`;
-
-\- \`range()\`;
-
-\- contador;
-
-\- acumulador;
-
-\- média;
-
-\- maior valor;
-
-\- menor valor;
-
-\- estruturas condicionais.
-
-Arquivo:
-
-[\`desafio11\_estatisticas\_turma.py\`]\(desafio11\_estatisticas\_turma.py)
-
-**---**
-
-**# 🔧 Conceitos importantes**
-
-**## Contador**
-
-Um contador registra quantas vezes determinado evento ocorre.
-
-Exemplo:
-
-\`\`\`python
-
-contador += 1
-
-\`\`\`
-
-equivale a:
-
-\`\`\`python
-
-contador = contador + 1
-
-\`\`\`
-
-**---**
-
-**## Acumulador**
-
-Um acumulador adiciona progressivamente valores.
-
-Exemplo:
-
-\`\`\`python
-
-soma += numero
-
-\`\`\`
-
-equivale a:
-
-\`\`\`python
-
-soma = soma + numero
-
-\`\`\`
-
-**---**
-
-**## Operador de resto**
-
-O operador:
-
-\`\`\`python
-
-%
-
-\`\`\`
-
-retorna o resto de uma divisão.
-
-Exemplo:
-
-\`\`\`python
-
-10 % 2
-
-\`\`\`
-
-resultado:
-
-\`\`\`text
-
-0
-
-\`\`\`
-
-Por isso, uma condição comum para verificar se um número é par é:
-
-\`\`\`python
-
-numero % 2 == 0
-
-\`\`\`
-
-**---**
-
-**## \`break\`**
-
-O comando:
-
-\`\`\`python
-
-break
-
-\`\`\`
-
-encerra imediatamente o laço em execução.
-
-**---**
-
-**## \`continue\`**
-
-O comando:
-
-\`\`\`python
-
-continue
-
-\`\`\`
-
-encerra somente a iteração atual e passa para a próxima repetição.
-
-**---**
-
-**## \`while\`**
-
-É utilizado principalmente quando não sabemos previamente quantas repetições serão necessárias.
-
-Exemplo:
-
-\`\`\`python
-
-while resposta == "s":
-
-\`\`\`
-
-**---**
-
-**## \`for\`**
-
-É utilizado principalmente quando existe uma quantidade conhecida de repetições ou uma sequência a ser percorrida.
-
-Exemplo:
-
-\`\`\`python
-
-for numero in range(1, 11):
-
-\`\`\`
-
-**---**
-
-**## \`range()\`**
-
-A função \`range()\` permite gerar sequências numéricas.
-
-Exemplo:
-
-\`\`\`python
-
+```python
 range(1, 6)
-
-\`\`\`
+```
 
 produz:
 
-\`\`\`text
-
+```text
 1
-
 2
-
 3
-
 4
-
 5
+```
 
-\`\`\`
+### `break`
 
-O limite final não faz parte da sequência.
+```python
+if numero == 0:
+    break
+```
 
-**---**
+### `continue`
 
-**# 🗂️ Organização dos códigos**
+```python
+if numero < 0:
+    continue
+```
 
-Todos os desafios seguem o padrão de documentação utilizado no projeto.
+---
+
+## 🔢 Operadores estudados
+
+### Operadores aritméticos
+
+| Operador | Descrição | Exemplo |
+|:---:|---|---|
+| `+` | Adição | `10 + 5` |
+| `-` | Subtração | `10 - 5` |
+| `*` | Multiplicação | `10 * 5` |
+| `/` | Divisão | `10 / 5` |
+| `//` | Divisão inteira | `10 // 3` |
+| `%` | Resto da divisão | `10 % 3` |
+| `**` | Exponenciação | `10 ** 2` |
+
+### Operadores relacionais
+
+| Operador | Descrição |
+|:---:|---|
+| `==` | Igual a |
+| `!=` | Diferente de |
+| `>` | Maior que |
+| `<` | Menor que |
+| `>=` | Maior ou igual a |
+| `<=` | Menor ou igual a |
+
+### Operadores lógicos
+
+| Operador | Descrição |
+|:---:|---|
+| `and` | Todas as condições devem ser verdadeiras |
+| `or` | Pelo menos uma condição deve ser verdadeira |
+| `not` | Inverte o resultado lógico |
+
+---
+
+## ⚠️ Erros identificados e aprendizados
+
+Durante o desenvolvimento, alguns erros e ajustes contribuíram diretamente para o aprendizado.
+
+### Escala das notas
+
+Em um dos testes, a condição:
+
+```python
+if nota >= 60:
+```
+
+foi utilizada enquanto as notas informadas estavam na escala de `0` a `10`.
+
+Para uma escala de `0` a `10`, a condição equivalente é:
+
+```python
+if nota >= 6:
+```
+
+Esse caso reforçou a importância de manter coerência entre a escala dos dados e a regra utilizada pelo algoritmo.
+
+---
+
+### Atualização de contador no `while`
+
+Um laço `while` deve atualizar a variável utilizada em sua condição.
+
+```python
+contador += 1
+```
+
+Sem essa atualização, o programa pode entrar em repetição infinita.
+
+---
+
+### Limite final do `range()`
+
+No comando:
+
+```python
+range(1, 6)
+```
+
+o número `6` não é incluído.
+
+A sequência gerada é:
+
+```text
+1
+2
+3
+4
+5
+```
+
+---
+
+### Diferença entre `break` e `continue`
+
+`break` encerra completamente o laço.
+
+```python
+break
+```
+
+`continue` interrompe somente a iteração atual.
+
+```python
+continue
+```
+
+---
+
+### Condição de parada
+
+Repetições indefinidas precisam possuir uma condição clara de encerramento.
 
 Exemplo:
 
-\`\`\`python
+```python
+if numero == 0:
+    break
+```
 
-\# -\*- coding: utf-8 -\*-
+---
 
-\# =============================================================================
+## 🗂️ Padrão de organização dos códigos
 
-\# Curso: Python Básico - +IFMG
+As práticas, exercícios e desafios foram organizados com cabeçalhos contendo:
 
-\# Trilha: Python & Big Data - 160h
+- curso;
+- trilha;
+- semana;
+- tipo da atividade;
+- número e título;
+- nome do arquivo;
+- autoria;
+- objetivo;
+- conteúdos praticados;
+- status da atividade.
 
-\# Semana: 02 - Controle de Fluxo
+Estrutura utilizada:
 
-\# Tipo: Desafio extra
+```python
+# =============================================================================
+# Curso: Python Básico - +IFMG
+# Trilha: Python & Big Data - 160h
+# Semana: 02 - Controle de Fluxo
+# Tipo: Prática, exercício oficial ou desafio extra
+# Atividade: número e título
+# Arquivo: nome_do_arquivo.py
+# Autor: Rodrigo Ralmes
+#
+# Objetivo:
+# Descrição do objetivo.
+#
+# Conteúdos praticados:
+# - conteúdo
+# - conteúdo
+#
+# Status: Concluído
+# =============================================================================
+```
 
-\# Atividade: Desafio XX - Nome do desafio
+Os programas mais estruturados também foram separados em:
 
-\# Arquivo: nome\_do\_arquivo.py
+```python
+# =============================================================================
+# ENTRADA DE DADOS
+# =============================================================================
 
-\# Autor: Rodrigo Ralmes
 
-\#
+# =============================================================================
+# PROCESSAMENTO
+# =============================================================================
 
-\# Objetivo:
 
-\# Descrição do objetivo do programa.
+# =============================================================================
+# SAÍDA DE DADOS
+# =============================================================================
+```
 
-\#
+---
 
-\# Conteúdos praticados:
+## 📁 Estrutura da Semana 02
 
-\# - conteúdo
-
-\# - conteúdo
-
-\#
-
-\# Status: Concluído
-
-\# =============================================================================
-
-\`\`\`
-
-Os códigos também são organizados em seções:
-
-\`\`\`python
-
-\# =============================================================================
-
-\# ENTRADA DE DADOS
-
-\# =============================================================================
-
-\`\`\`
-
-\`\`\`python
-
-\# =============================================================================
-
-\# PROCESSAMENTO
-
-\# =============================================================================
-
-\`\`\`
-
-\`\`\`python
-
-\# =============================================================================
-
-\# SAÍDA DE DADOS
-
-\# =============================================================================
-
-\`\`\`
-
-**---**
-
-**# 📁 Estrutura da pasta**
-
-\`\`\`text
-
-03-desafios-extras/
-
+```text
+semana-02/
 ├── README.md
+│
+├── 01-praticas/
+│   ├── README.md
+│   ├── pratica01_if_simples.py
+│   ├── pratica02_if_else.py
+│   ├── pratica03_if_elif_else.py
+│   ├── pratica04_condicoes_compostas.py
+│   ├── pratica05_if_aninhado.py
+│   ├── pratica06_decisao_problema_completo.py
+│   ├── pratica06a_ano_bissexto.py
+│   ├── pratica06b_classificacao_triangulos.py
+│   ├── pratica06c_equacao_segundo_grau.py
+│   ├── pratica07_while.py
+│   ├── pratica08_while_acumulador.py
+│   ├── pratica09_for.py
+│   ├── pratica10_range.py
+│   ├── pratica11_break_continue.py
+│   ├── pratica12_decisao_repeticao.py
+│   ├── pratica13_numeros_pares_while.py
+│   ├── pratica14_soma_10_numeros_for.py
+│   ├── pratica15_soma_indefinida.py
+│   ├── pratica16_soma_indefinida_sem_negativos.py
+│   ├── pratica17_mdc_euclides.py
+│   ├── pratica18_combinacoes_elementos.py
+│   └── pratica19_subconjuntos_dois_elementos.py
+│
+├── 02-exercicios/
+│   ├── README.md
+│   ├── ex01_maior_de_tres.py
+│   ├── ex02_par_impar_sem_modulo.py
+│   ├── ex03_imposto_renda.py
+│   ├── ex04_maior_menor_sequencia.py
+│   ├── ex05_fatorial.py
+│   └── ex06_calculadora.py
+│
+└── 03-desafios-extras/
+    ├── README.md
+    ├── desafio01_classificador_numero.py
+    ├── desafio02_situacao_aluno.py
+    ├── desafio03_maior_menor_cinco_numeros.py
+    ├── desafio04_tabuada.py
+    ├── desafio05_soma_pares_intervalo.py
+    ├── desafio06_contador_sinais.py
+    ├── desafio07_senha_tres_tentativas.py
+    ├── desafio08_calculadora_menu.py
+    ├── desafio09_fibonacci.py
+    ├── desafio10_numero_primo.py
+    └── desafio11_estatisticas_turma.py
+```
 
-├── desafio01\_classificador\_numero.py
+---
 
-├── desafio02\_situacao\_aluno.py
+## ▶️ Como executar os códigos
 
-├── desafio03\_maior\_menor\_cinco\_numeros.py
+### Execução pelo Spyder
 
-├── desafio04\_tabuada.py
+1. Abra o Spyder.
+2. Acesse a pasta do projeto.
+3. Abra o arquivo desejado.
+4. Execute o programa.
+5. Informe os valores solicitados.
+6. Verifique o resultado no console.
 
-├── desafio05\_soma\_pares\_intervalo.py
-
-├── desafio06\_contador\_sinais.py
-
-├── desafio07\_senha\_tres\_tentativas.py
-
-├── desafio08\_calculadora\_menu.py
-
-├── desafio09\_fibonacci.py
-
-├── desafio10\_numero\_primo.py
-
-└── desafio11\_estatisticas\_turma.py
-
-\`\`\`
-
-**---**
-
-**# ▶️ Como executar**
-
-**## Execução pelo Spyder**
-
-1\. Abra o Spyder.
-
-2\. Acesse a pasta \`03-desafios-extras\`.
-
-3\. Abra o arquivo desejado.
-
-4\. Execute o código.
-
-5\. Informe os dados solicitados.
-
-6\. Analise o resultado apresentado no console.
-
-7\. Caso necessário, ajuste o código e execute novamente.
-
-**---**
-
-**## Execução pelo terminal**
+### Execução pelo terminal
 
 Acesse a raiz do repositório:
 
-\`\`\`bat
-
+```bat
 cd E:\Projetos\GitHub\ifmg-python-basic-trilha-40h
+```
 
-\`\`\`
+Exemplo de prática:
 
-Exemplo:
+```bat
+python semana-02\01-praticas\pratica01_if_simples.py
+```
 
-\`\`\`bat
+Exemplo de exercício oficial:
 
-python semana-02\03-desafios-extras\desafio01\_classificador\_numero.py
+```bat
+python semana-02\02-exercicios\ex01_maior_de_tres.py
+```
 
-\`\`\`
+Exemplo de desafio extra:
 
-Tabuada:
+```bat
+python semana-02\03-desafios-extras\desafio01_classificador_numero.py
+```
 
-\`\`\`bat
+---
 
-python semana-02\03-desafios-extras\desafio04\_tabuada.py
+## 🔄 Fluxo de versionamento utilizado
 
-\`\`\`
+Cada código foi versionado individualmente seguindo esta sequência:
 
-Calculadora:
-
-\`\`\`bat
-
-python semana-02\03-desafios-extras\desafio08\_calculadora\_menu.py
-
-\`\`\`
-
-Número primo:
-
-\`\`\`bat
-
-python semana-02\03-desafios-extras\desafio10\_numero\_primo.py
-
-\`\`\`
-
-**---**
-
-**# 🔄 Fluxo de desenvolvimento**
-
-Cada desafio seguiu esta sequência:
-
-\`\`\`text
-
-Criar o arquivo
-
-       ↓
-
-Implementar o algoritmo
-
-       ↓
-
-Executar no Spyder
-
-       ↓
-
-Testar diferentes entradas
-
-       ↓
-
-Verificar o resultado
-
-       ↓
-
-Corrigir eventuais erros
-
-       ↓
-
-Alterar Status para Concluído
-
-       ↓
-
+```bat
 git status
-
-       ↓
-
-git add
-
-       ↓
-
-git commit
-
-       ↓
-
+git add nome_do_arquivo.py
+git status
+git commit -m "feat: adiciona descrição da atividade"
 git push
-
-       ↓
-
 git status
+```
 
-\`\`\`
+Para alterações exclusivamente documentais, foi utilizado o prefixo `docs`:
 
-**---**
-
-**# 🔀 Fluxo de versionamento**
-
-Cada desafio foi versionado individualmente.
-
-Exemplo:
-
-\`\`\`bat
-
+```bat
 git status
-
-git add 03-desafios-extras/desafio01\_classificador\_numero.py
-
+git add README.md
 git status
-
-git commit -m "feat: adiciona desafio 01 classificador numero semana 02"
-
+git commit -m "docs: atualiza documentação da semana 02"
 git push
-
 git status
+```
+
+### Convenção utilizada nos commits
+
+| Prefixo | Utilização |
+|---|---|
+| `feat` | Inclusão de uma prática, exercício ou desafio |
+| `docs` | Criação ou atualização de documentação |
+| `fix` | Correção de um erro no código |
+| `refactor` | Reorganização do código sem mudar o resultado |
+
+---
+
+## 💡 Aprendizados consolidados
+
+Ao concluir a Semana 02, foram consolidados os seguintes aprendizados:
+
+### Programação
+
+- utilizar estruturas condicionais;
+- construir decisões simples e compostas;
+- trabalhar com múltiplas alternativas;
+- utilizar condições aninhadas;
+- combinar operadores relacionais e lógicos;
+- utilizar `while`;
+- utilizar `for`;
+- utilizar `range()`;
+- trabalhar com contadores;
+- trabalhar com acumuladores;
+- utilizar `break`;
+- utilizar `continue`;
+- combinar decisões e repetições;
+- desenvolver algoritmos iterativos;
+- trabalhar com condições de parada;
+- resolver problemas com fluxos mais complexos.
+
+### Raciocínio lógico
+
+- interpretar condições;
+- identificar alternativas;
+- definir critérios de decisão;
+- definir critérios de repetição;
+- identificar condições de parada;
+- analisar sequências;
+- comparar valores;
+- trabalhar com maior e menor valor;
+- dividir problemas em etapas;
+- testar diferentes cenários;
+- identificar erros de lógica;
+- corrigir implementações.
+
+### Organização
+
+- padronizar cabeçalhos;
+- separar entrada, processamento e saída;
+- utilizar nomes de variáveis descritivos;
+- organizar práticas, exercícios e desafios;
+- documentar os conteúdos estudados;
+- criar READMEs específicos para cada pasta.
+
+### Git e GitHub
+
+- verificar alterações com `git status`;
+- selecionar arquivos com `git add`;
+- registrar alterações com `git commit`;
+- publicar commits com `git push`;
+- criar commits individuais;
+- utilizar mensagens de commit descritivas;
+- verificar a sincronização com o GitHub;
+- acompanhar a evolução do projeto pelo histórico de commits;
+- manter a árvore de trabalho limpa.
+
+---
+
+## 🏆 Resultados da Semana 02
+
+A Semana 02 foi concluída com:
+
+- **19 práticas principais**;
+- **3 práticas complementares**;
+- **22 arquivos de práticas**;
+- **6 exercícios oficiais**;
+- **11 desafios extras**;
+- **39 arquivos Python**;
+- documentação específica para cada categoria;
+- códigos testados no Spyder;
+- versionamento individual;
+- publicação completa no GitHub.
+
+---
+
+## ✅ Status da semana
+
+> **Semana 02 concluída com sucesso:** todos os conteúdos planejados de controle de fluxo foram estudados, implementados, testados, documentados, versionados e publicados no GitHub.
+
+---
+
+## 🔗 Navegação
+
+- [🧪 Práticas de controle de fluxo](01-praticas/README.md)
+- [🧩 Exercícios oficiais](02-exercicios/README.md)
+- [🚀 Desafios extras](03-desafios-extras/README.md)
+- [🏠 Voltar ao início do repositório](../README.md)
 
-\`\`\`
+---
 
-**---**
+## 👨‍💻 Autor
 
-**# 🏷️ Convenção de commits**
+**Rodrigo de Almeida Silveira**
 
-\| Prefixo | Utilização |
-
-\|---|---|
-
-\| \`feat\` | Inclusão de novo desafio |
-
-\| \`docs\` | Criação ou atualização de documentação |
-
-\| \`fix\` | Correção de erro |
-
-\| \`refactor\` | Reorganização do código sem alterar seu resultado |
-
-**---**
-
-**# 💡 Aprendizados consolidados**
-
-Com a conclusão desta etapa, foram consolidados conhecimentos relacionados a:
-
-\- interpretação de problemas;
-
-\- criação de algoritmos;
-
-\- utilização de condições;
-
-\- utilização de estruturas condicionais;
-
-\- construção de múltiplas alternativas;
-
-\- estruturas aninhadas;
-
-\- operadores relacionais;
-
-\- operadores lógicos;
-
-\- repetição com \`while\`;
-
-\- repetição com \`for\`;
-
-\- utilização de \`range()\`;
-
-\- interrupção de laços com \`break\`;
-
-\- controle de iterações com \`continue\`;
-
-\- criação de contadores;
-
-\- criação de acumuladores;
-
-\- comparação de valores;
-
-\- identificação de maior e menor valor;
-
-\- cálculo de médias;
-
-\- processamento de intervalos numéricos;
-
-\- divisibilidade;
-
-\- sequências numéricas;
-
-\- criação de menus;
-
-\- controle de tentativas;
-
-\- organização de código;
-
-\- documentação;
-
-\- testes;
-
-\- depuração;
-
-\- versionamento com Git;
-
-\- publicação no GitHub.
-
-**---**
-
-**# 📈 Progresso**
-
-\| Indicador | Resultado |
-
-\|---|---:|
-
-\| Desafios planejados | 11 |
-
-\| Desafios concluídos | 11 |
-
-\| Arquivos Python planejados | 11 |
-
-\| README | 1 |
-
-\| Percentual de conclusão | 100% |
-
-\`\`\`text
-
-████████████████████ 100%
-
-\`\`\`
-
-Todos os 11 desafios foram concluídos, testados, documentados, versionados e publicados no GitHub.
-
-**---**
-
-**# ✅ Status da etapa**
-
-\> **\*\*Etapa em andamento:\*\*** os desafios extras da Semana 02 estão sendo desenvolvidos progressivamente, seguindo a mesma metodologia de organização, execução, documentação e versionamento utilizada durante a Semana 01.
-
-**---**
-
-**# 🔗 Navegação**
-
-\- [⬅️ Voltar para a Semana 02]\(../README.md)
-
-\- [🧪 Acessar as práticas]\(../01-praticas/README.md)
-
-\- [🧩 Acessar os exercícios]\(../02-exercicios/README.md)
-
-\- [🏠 Voltar ao início do repositório]\(../../README.md)
-
-**---**
-
-**# 👨‍💻 Autor**
-
-**\*\*Rodrigo de Almeida Silveira\*\***
-
-Projeto desenvolvido como parte da trilha de estudos em **\*\*Python e Big Data — 160 horas\*\***, iniciada pelo curso de **\*\*Python Básico — +IFMG\*\***.
+Projeto desenvolvido como parte da trilha de estudos em **Python e Big Data — 160 horas**, iniciada pelo curso de **Python Básico — +IFMG**.
